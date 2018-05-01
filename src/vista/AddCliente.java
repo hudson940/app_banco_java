@@ -10,9 +10,13 @@ public class AddCliente extends JDialog {
     private JLabel nombreLabel;
     private JTextField nombreTextField;
     private JTextField direccionTextField;
-    private JTextField textField3;
-    private JTextField textField4;
-    private JTextField textField5;
+    private JTextField emailTextField;
+    private JTextField saldoTextField;
+    private JTextField celTextField;
+    private JLabel emailLabel;
+    private JLabel celLabel;
+    private JLabel saldoLabel;
+    private JLabel tarjetaLabel;
 
     public AddCliente() {
         setContentPane(contentPane);

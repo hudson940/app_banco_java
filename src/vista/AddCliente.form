@@ -65,11 +65,6 @@
               <text value="Nombre"/>
             </properties>
           </component>
-          <vspacer id="562db">
-            <constraints>
-              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-            </constraints>
-          </vspacer>
           <component id="c13b6" class="javax.swing.JTextField" binding="nombreTextField">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
@@ -94,7 +89,7 @@
             </constraints>
             <properties/>
           </component>
-          <component id="c6f26" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+          <component id="c6f26" class="javax.swing.JTextField" binding="emailTextField">
             <constraints>
               <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
@@ -102,7 +97,7 @@
             </constraints>
             <properties/>
           </component>
-          <component id="2135a" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+          <component id="2135a" class="javax.swing.JTextField" binding="saldoTextField">
             <constraints>
               <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
@@ -110,7 +105,7 @@
             </constraints>
             <properties/>
           </component>
-          <component id="70260" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+          <component id="70260" class="javax.swing.JTextField" binding="celTextField">
             <constraints>
               <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
@@ -118,20 +113,38 @@
             </constraints>
             <properties/>
           </component>
-          <component id="13e87" class="javax.swing.JLabel">
+          <component id="13e87" class="javax.swing.JLabel" binding="emailLabel">
             <constraints>
-              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Label"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Email"/>
             </properties>
           </component>
-          <component id="6c6e0" class="javax.swing.JLabel">
+          <component id="6c6e0" class="javax.swing.JLabel" binding="celLabel">
             <constraints>
               <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Label"/>
+              <text value="Celular"/>
+            </properties>
+          </component>
+          <component id="b7737" class="javax.swing.JLabel" binding="saldoLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Saldo"/>
+            </properties>
+          </component>
+          <component id="c9153" class="javax.swing.JLabel" binding="tarjetaLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Tarjeta"/>
             </properties>
           </component>
         </children>
