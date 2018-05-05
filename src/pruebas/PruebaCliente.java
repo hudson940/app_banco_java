@@ -3,7 +3,6 @@ import controlador.ClienteController;
 import modelo.Tarjeta;
 import modelo.Cliente;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class PruebaCliente {
@@ -12,7 +11,7 @@ public class PruebaCliente {
     private static String email = "info@test.com";
     private static String celular = "3326554587";
     private static Double saldo = .0;
-    private static Tarjeta tarjeta_credito = new Tarjeta();
+    private static Tarjeta tarjeta_credito = new Tarjeta(1000, 500.0,"15", 0.2f);
 
 
     public PruebaCliente(){
