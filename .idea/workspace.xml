@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e1d2307-ad84-4fef-bb68-a94e7bfd6eb6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/vista/FormTarjeta.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vista/FormTarjeta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Tarjeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Tarjeta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pruebas/PruebaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/PruebaCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vista/Inicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vista/Inicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vista/VistaCliente.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/vista/VistaCliente.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vista/VistaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vista/VistaCliente.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +77,7 @@
       <file leaf-file-name="Tarjeta.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/modelo/Tarjeta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
+            <state relative-caret-position="275">
               <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
               <folding>
                 <element signature="e#396#397#0" expanded="true" />
@@ -109,34 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VistaCliente.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vista/VistaCliente.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-345">
-              <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1411#1551#0" expanded="true" />
-                <element signature="e#1550#1551#0" expanded="true" />
-                <element signature="e#5097#5322#0" expanded="true" />
-                <element signature="e#5321#5322#0" expanded="true" />
-                <element signature="e#5475#5476#0" expanded="true" />
-                <element signature="e#5518#5519#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VistaCliente.form" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/vista/VistaCliente.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file leaf-file-name="FormCliente.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FormCliente.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/vista/FormCliente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="180">
+              <caret line="111" column="35" lean-forward="true" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
               <folding>
                 <element signature="e#1905#1906#0" expanded="true" />
                 <element signature="e#1947#1948#0" expanded="true" />
@@ -388,7 +357,7 @@
       <workItem from="1525311040125" duration="5322000" />
       <workItem from="1525363480980" duration="4071000" />
       <workItem from="1525478189444" duration="19400000" />
-      <workItem from="1525535247136" duration="15257000" />
+      <workItem from="1525535247136" duration="15605000" />
     </task>
     <task id="LOCAL-00001" summary="Interfaz lista, CRUD funcional, consignar y retirar OK, pendiente función tarjeta.">
       <created>1525543197255</created>
@@ -397,15 +366,21 @@
       <option name="project" value="LOCAL" />
       <updated>1525543197255</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ver 0.1">
+      <created>1525552046061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525552046061</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53523000" />
+    <option name="totallyTimeSpent" value="53871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-7" width="1368" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -416,12 +391,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5014641" side_tool="true" weight="0.32766616" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3111455" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32972136" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3111455" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49853587" weight="0.32612056" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25988287" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25988287" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -476,7 +451,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Interfaz lista, CRUD funcional, consignar y retirar OK, pendiente función tarjeta." />
-    <option name="LAST_COMMIT_MESSAGE" value="Interfaz lista, CRUD funcional, consignar y retirar OK, pendiente función tarjeta." />
+    <MESSAGE value="Ver 0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ver 0.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -832,31 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modelo/Tarjeta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding>
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/vista/FormCliente.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
@@ -887,21 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vista/FormCliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#1905#1906#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#2092#2220#0" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2382#2383#0" expanded="true" />
-            <element signature="e#2424#2425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -925,6 +861,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/vista/VistaCliente.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/vista/VistaCliente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-345">
@@ -941,8 +880,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vista/VistaCliente.form">
-      <provider selected="true" editor-type-id="ui-designer" />
+    <entry file="file://$PROJECT_DIR$/src/modelo/Tarjeta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vista/FormCliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="111" column="35" lean-forward="true" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
+          <folding>
+            <element signature="e#1905#1906#0" expanded="true" />
+            <element signature="e#1947#1948#0" expanded="true" />
+            <element signature="e#2092#2220#0" expanded="true" />
+            <element signature="e#2219#2220#0" expanded="true" />
+            <element signature="e#2382#2383#0" expanded="true" />
+            <element signature="e#2424#2425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
