@@ -1,123 +1,176 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package modelo;
 
-import sun.misc.ExtensionInfo;
-
-public class Cliente extends Object{
-    private int codigo;
+/**
+ *
+ * @author Andrea
+ */
+public class Cliente {
+    private int idCliente;
     private String nombre;
     private String direccion;
     private String email;
-    private String celular;
     private Double saldo;
-    private Tarjeta tarjeta_credito;
-
-    public Cliente(int codigo, String nombre, String direccion, String email,
-                   String celular, Double saldo ,Tarjeta tarjeta_credito){
-
-        this.codigo = codigo;
+    private long celular;
+    private Tarjeta tarjeta;
+    
+    /**
+     * Constructor para cliente
+     * @param id
+     * @param nombre
+     * @param direccion
+     * @param email
+     * @param saldo
+     * @param celular
+     * @param tarjeta
+     */
+    public Cliente(int id, String nombre, String direccion,
+                    String email, Double saldo, long celular ,Tarjeta tarjeta )
+    {
+        this.idCliente = id;
         this.nombre = nombre;
         this.direccion = direccion;
         this.email = email;
-        this.celular = celular;
         this.saldo = saldo;
-        this.tarjeta_credito = tarjeta_credito;
-
-
+        this.celular = celular;
+        this.tarjeta = tarjeta;
     }
 
-    public int getCodigo() {
-        return codigo;
+    /**
+     *
+     * @return id cliente
+     */
+    public int getIdCliente() {
+        return idCliente;
     }
 
-    public void setCodigo(int codigo) {
-        this.codigo = codigo;
+    /**
+     *
+     * @param idCliente
+     */
+    public void setIdCliente(int idCliente) {
+        this.idCliente = idCliente;
     }
 
+    /**
+     *
+     * @return nombre cliente
+     */
     public String getNombre() {
         return nombre;
     }
 
+    /**
+     *
+     * @param nombre
+     */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
+    /**
+     *
+     * @return dirección cliente
+     */
     public String getDireccion() {
         return direccion;
     }
 
+    /**
+     *
+     * @param direccion
+     */
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
 
+    /**
+     *
+     * @return email cliente.
+     */
     public String getEmail() {
         return email;
     }
 
+    /**
+     *
+     * @param email
+     */
     public void setEmail(String email) {
         this.email = email;
     }
 
-    public String getCelular() {
-        return celular;
-    }
-
-    public void setCelular(String celular) {
-        this.celular = celular;
-    }
-
+    /**
+     *
+     * @return saldo cliente
+     */
     public Double getSaldo() {
         return saldo;
     }
 
-    public Tarjeta getTarjeta_credito() {
-        return tarjeta_credito;
+    /**
+     *
+     * @param saldo
+     */
+    public void setSaldo(Double saldo) {
+        this.saldo = saldo;
     }
 
-    public void setTarjeta_credito(Tarjeta tarjeta_credito) {
-        this.tarjeta_credito = tarjeta_credito;
+    /**
+     *
+     * @return tarjeta cliente
+     */
+    public Tarjeta getTarjeta() {
+        return tarjeta;
     }
 
-    public String to_string(){
-        String cliente =
-                "Código: "+this.codigo + '\n' +
-                "Nombre: "+this.nombre + '\n' +
-                "Dirección: "+this.direccion + '\n' +
-                "Teleforno: "+ this.celular + '\n' +
-                "Email: "+ this.email + '\n' +
-                "saldo: "+ this.saldo + '\n' ;
-
-
-        return cliente;
+    /**
+     *
+     * @param tarjeta
+     */
+    public void setTarjeta(Tarjeta tarjeta) {
+        this.tarjeta = tarjeta;
     }
 
-    @Override
-    public String toString() {
-        String cliente =
-                "Código: "+this.codigo + '\n' +
-                        "Nombre: "+this.nombre + '\n' +
-                        "Dirección: "+this.direccion + '\n' +
-                        "Teleforno: "+ this.celular + '\n' +
-                        "Email: "+ this.email + '\n' +
-                        "saldo: "+ this.saldo + '\n' ;
-
-
-        return cliente;
+    /**
+     *
+     * @return celular cliente
+     */
+    public long getCelular() {
+        return celular;
     }
 
-    public String[] toTableRow(){
-        String[] row = {"" + codigo , nombre,"" + saldo};
-        return row;
+    /**
+     *
+     * @param celular
+     */
+    public void setCelular(long celular) {
+        this.celular = celular;
     }
+    
+    /**
+     *
+     * @param deposito valor a depositar
+     * @return saldo despues del deposito
+     */
+    public Double depositar(Double deposito) {
+       this.saldo = this.saldo + deposito;
+       return this.saldo;
+   }
 
-    public Double addSaldo(Double add) {
-        this.saldo += add;
-        return this.saldo;
-    }
-
-    public Double retirarSaldo(double retiro) {
-        if(this.saldo < retiro)
-            return null;
-        else
-            return this.saldo -= retiro;
-    }
+    /**
+     *
+     * @param retiro valor a retirar
+     * @return saldo despues del retiro
+     */
+    public Double retirar(double retiro) {
+       if(this.saldo < retiro)
+           return null;
+       else
+           return this.saldo = this.saldo - retiro;
+   }
 }
